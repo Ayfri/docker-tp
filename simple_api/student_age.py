@@ -26,7 +26,6 @@ def unauthorized():
 
 
 try:
-    student_age_file_path
     student_age_file_path  = os.environ['student_age_file_path'] 
 except NameError:
     student_age_file_path  = '/data/student_age.json'
